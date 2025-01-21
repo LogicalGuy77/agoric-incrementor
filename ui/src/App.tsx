@@ -59,7 +59,7 @@ const setup = async () => {
     instances => {
       console.log('got instances', instances);
       useAppStore.setState({
-        offerUpInstance: instances.find(([name]) => name === 'offerUp')!.at(1),
+        offerUpInstance: instances.find(([name]) => name === 'incrementor')!.at(1),
       });
     },
   );

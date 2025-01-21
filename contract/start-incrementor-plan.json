@@ -1,0 +1,17 @@
+{
+  "name": "start-incrementor",
+  "script": "start-incrementor.js",
+  "permit": "start-incrementor-permit.json",
+  "bundles": [
+    {
+      "entrypoint": "../src/incrementor.js",
+      "bundleID": "b1-0d6e1520cf769764ad3eb2cd25e9abf4c908b3f0b0d149c4f143ef418be8a5cebf116167e89db28f07758563788cd8272767f980af1b1783c76c183ba021ca1e",
+      "fileName": "/root/.agoric/cache/b1-0d6e1520cf769764ad3eb2cd25e9abf4c908b3f0b0d149c4f143ef418be8a5cebf116167e89db28f07758563788cd8272767f980af1b1783c76c183ba021ca1e.json"
+    },
+    {
+      "entrypoint": "../src/incrementor-proposal.js",
+      "bundleID": "b1-67c1a3c06652f2fdb21da355d3b236313957441c524adcff2e2a876afd499f138431e6f264bb1d264a586e2f2c98fc9ac14bfbc368d00558dd3fca7856a4ff5f",
+      "fileName": "/root/.agoric/cache/b1-67c1a3c06652f2fdb21da355d3b236313957441c524adcff2e2a876afd499f138431e6f264bb1d264a586e2f2c98fc9ac14bfbc368d00558dd3fca7856a4ff5f.json"
+    }
+  ]
+}
