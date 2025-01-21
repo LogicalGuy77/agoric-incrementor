@@ -3,8 +3,8 @@ set -xueo pipefail
 
 cd /workspace/contract
 
-SCRIPT=start-offer-up.js
-PERMIT=start-offer-up-permit.json
+SCRIPT=start-incrementor.js
+PERMIT=start-incrementor-permit.json
 ls -sh "$SCRIPT" "$PERMIT"
 
 PROPOSAL=$(agd query gov proposals --output json | jq -c '.proposals | length | .+1')
@@ -32,4 +32,4 @@ parseInstances() {
 # check that the contract was actually started
 api=http://localhost:1317
 curl $api/agoric/vstorage/data/published.agoricNames.instance \
-  | parseInstances | grep offerUp
+  | parseInstances | grep incrementor
